@@ -1,0 +1,14 @@
+[package]
+name = "zuva_cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "zuva"
+path = "src/main.rs"
+
+[dependencies]
+zuva_driver = { path = "../zuva_driver" }
+clap.workspace = true
+rustyline.workspace = true

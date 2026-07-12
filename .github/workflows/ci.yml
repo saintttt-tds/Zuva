@@ -1,0 +1,9 @@
+name: Placeholder
+on:
+  workflow_dispatch:
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Zuva workflow placeholder"

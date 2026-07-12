@@ -1,0 +1,9 @@
+[package]
+name = "zuva_semantic"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+zuva_core = { path = "../zuva_core" }
+zuva_frontend = { path = "../zuva_frontend" }
