@@ -2,6 +2,27 @@
 name = "zuva_core"
 version.workspace = true
 edition.workspace = true
+rust-version.workspace = true
 license.workspace = true
+authors.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+
+description = "Shared source, span, symbol, interning, and diagnostic infrastructure for the Zuva compiler."
+keywords = ["zuva", "compiler", "programming-language", "diagnostics"]
+categories = ["compilers", "development-tools"]
+publish = false
 
 [dependencies]
+miette.workspace = true
+serde.workspace = true
+smol_str.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+pretty_assertions.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true

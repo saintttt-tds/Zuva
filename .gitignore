@@ -1,6 +1,74 @@
+# Rust build output
 /target/
+**/target/
+
+# Cargo-generated backup files
 **/*.rs.bk
+
+# Debug symbols and binaries
 *.pdb
-.DS_Store
-.idea/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDEs and editors
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Test and coverage output
+coverage/
+tarpaulin-report.html
+lcov.info
+.profraw
+.profdata
+
+# Benchmark output
+criterion/
+
+# Generated documentation
+/docs/generated/
+
+# Generated Zuva artifacts
+*.zbc
+*.zir
+*.zobj
+*.zlib
+*.zexe
+
+# Package and release artifacts
+/dist/
+/release/
+*.zip
+*.tar
+*.tar.gz
+
+# Local configuration
+zuva.local.toml

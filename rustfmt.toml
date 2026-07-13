@@ -1,2 +1,12 @@
-edition = "2024"
+edition = "2026"
+
 max_width = 100
+tab_spaces = 4
+hard_tabs = false
+
+newline_style = "Unix"
+use_small_heuristics = "Default"
+
+reorder_imports = true
+reorder_modules = true
+match_block_trailing_comma = true

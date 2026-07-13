@@ -1,1 +1,11 @@
 msrv = "1.85"
+
+cognitive-complexity-threshold = 25
+too-many-arguments-threshold = 8
+type-complexity-threshold = 250
+too-many-lines-threshold = 150
+enum-variant-name-threshold = 3
+single-char-binding-names-threshold = 4
+
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true
